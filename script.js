@@ -1,5 +1,16 @@
 // JavaScript Document
 $(function(){
+//start
+    
+　setTimeout(function(){
+       
+
+          // 繰り返し処理
+        $('.topVisual').animate({ opacity: 1}, { duration: 1000, easing: 'swing'});
+                 
+     
+},400);    
+    
   $(window).on('load scroll', function(){
 
     if ($(window).scrollTop() > 500) {
@@ -10,14 +21,6 @@ $(function(){
   });
     
 //scroll  
-    $(window).on('load scroll',function(){
-       
-        if ($(window).scrollTop() > 1700) {
-            $('.card3').fadeIn(400);
-            $('.card3').addClass('active1');
-        
-        }
-    });
 
     $(window).on('load scroll',function(){
        
@@ -26,7 +29,7 @@ $(function(){
           // 繰り返し処理
           $('.card-fadeInBox li').each(function(i) {
           // 遅延させてフェードイン
-          $(this).delay(500 * i).fadeIn(800);
+          $(this).delay(300 * i).animate({ opacity: 1}, { duration: 1000, easing: 'swing'});
           });
         
         }
@@ -38,7 +41,7 @@ $(function(){
           // 繰り返し処理
           $('.card-fadeInBox2 li').each(function(i) {
           // 遅延させてフェードイン
-          $(this).delay(500 * i).fadeIn(800);
+          $(this).delay(300 * i).animate({ opacity: 1}, { duration: 1000, easing: 'swing'});
           });
         
         }
