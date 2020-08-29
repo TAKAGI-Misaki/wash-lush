@@ -1,0 +1,784 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.card-fadeInBox li {
+    list-style: none;
+    margin-left: 30px;
+    float: right;
+    width: 300px;
+    height: 500px;
+}
+
+.staff-fadeINBox li {
+    list-style: none;
+    display: none;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+}
+
+.modal-right {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.rightBg {
+    width: 40%;
+    height: 100%;
+    margin-bottom: 100px;
+    background: #C5D7DE;
+    float: right;
+    z-index: 4;
+}
+
+.nav-links {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.nav-link {
+    margin: 30px 20px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#TOPPAGE {
+    color: #E3857F;
+}
+
+.header-right {
+    position: absolute;
+    right: 0;
+    margin-right: 1.2vw;
+    margin-top: 10vh;
+    position: fixed;
+    z-index: 10;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.menu-btn {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background: #B1C9D2;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bars {
+    position: absolute;
+    transform: translate(-50%);
+    top: 10px;
+    left: 50%;
+}
+
+.bar {
+    width: 20px;
+    border: solid 1px white;
+}
+
+.bar1 {
+    transition: .3s;
+}
+
+.bar2 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    transition: .3s;
+}
+
+.menu-btn:hover .bar1 {
+    margin-top: 2px;
+    transition: .2s;
+}
+
+.menu-btn:hover .bar2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: .2s;
+}
+
+.batu-btn {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background: #B1C9D2;
+    margin-bottom: 20px;
+    position: relative;
+    display: none;
+}
+
+.bar4 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    ransition: .2s;
+}
+
+.bar5 {
+    transform: rotate(135deg);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    ransition: .2s;
+}
+
+.batu-btn:hover .bar4 {
+    transform: scale(1.1,1.1);
+    transition: .2s;
+}
+
+.batu-btn:hover .bar5 {
+    transform: scale(1.1,1.1);
+    transition: .2s;
+}
+
+.reserve-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: solid 1px #464646;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.reserve-btn:hover {
+    background: #464646;
+    transition: .2s;
+}
+
+.reserve-btn:hover .fa-envelope {
+    color: white;
+    transition: .2s;
+}
+
+.fa-envelope {
+    color: #464646;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#right-logo {
+    margin-left: 13px;
+}
+
+.topVisual {
+    width: 100%;
+    height: 60vh;
+}
+
+.top-imgBox {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    margin-right: 7.5vw;
+    float: right;
+}
+
+.top-text {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 15vh;
+    left: -20%;
+    z-index: 3;
+}
+
+.top-img {
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-right: 80px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.animeBox {
+    animation  : bgAnime 15s infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.src1 {
+    background-image: url("image/src1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.src2 {
+    background-image: url("image/matthew-tkocz-q697-Akhwkc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    animation-delay: 5s;
+}
+
+.src3 {
+    background-image: url("image/braedon-mcleod-zjq0I3XupiI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    animation-delay: 10s;
+}
+
+.src4 {
+    background-image: url("image/src1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    animation-delay: 15s;
+}
+
+@keyframes bgAnime {
+    0%{opacity: 0; }
+    5%{opacity: 1; z-index: 1;}
+    25%{opacity: 1;}
+    30%{opacity: 1;}
+    100%{opacity: 0; transform: scale(1.05) ;}
+}
+
+.concept {
+    width: 100%;
+    height: 75vh;
+    padding-top: 150px;
+}
+
+.concept {
+    display: flex;
+    position: relative;
+}
+
+.concept-img {
+    margin-left: 5vw;
+    width: 25vw;
+    height: 55%;
+    background-image: url("image/concept.jpg");
+    background-size: cover;
+    z-index: 1;
+   
+}
+
+.concept-text {
+    width: 75%;
+    height: 70%;
+    background: #E6EFF1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.concept-textBox {
+    width: 100%;
+    margin-left: 10vw;
+    display: inline-block;
+    font-family: "Futura Thin";
+    letter-spacing: .2em;
+　　　color: #464646;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+h1 {
+    font-family: "Futura Thin";
+    font-size: 40px;
+    letter-spacing: .2em;
+    margin: 0;
+}
+
+p {
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.english {
+    font-size: 1px;
+}
+
+.concept-btn {
+    font-size: 12px;
+    color: #464646;
+    text-decoration: none;
+    padding: 14px 35px;
+    margin-top: 20px;
+    display: inline-block;
+    background: white;
+    transition: .5s;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+    font-weight: 100;
+}
+
+
+.concept-btn:hover {
+    background: #FFF9B1;
+    transition: .5s;
+}
+
+.salon {
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.salon-item-Box {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.salon-textBox {
+    width: 100%;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+.salonImg {
+    width: 180px;
+    height: 180px;
+}
+
+.card1-img {
+    background-image: url("image/taylor-simpson-Z8s3PRQVuUk-unsplash.jpg");
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.card2-img {
+    background-image: url("image/anthony-tran-Sd9A6NVHsd4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 180px;
+}
+
+.card3-img {
+    background-image: url("image/the-creative-exchange-dMBexrGJnlo-unsplash.jpg");
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+h2 {
+    font-family: "Futura Thin";
+    color: #464646;
+    letter-spacing: 0.2em;
+}
+
+.salon-cardBox {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.card-fadeInBox li {
+    list-style: none;
+    margin-left: 0px;
+    float: none;
+    width: 180px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.card-fadeInBox {
+    width: 85%;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card {
+    width: 180px;
+    height: 500px;
+    transition: .5s;
+    display: none;
+    padding: 0;
+}
+
+
+.card p {
+    width: 180px;
+    letter-spacing: .2em;
+    color: #464646;
+}
+
+.card:hover {
+    opacity: .7;
+    transition: .5s;
+}
+
+/*menu*/
+
+.menu {
+    width: 100%;
+    height:  auto;
+    padding-top: 150px;
+}
+
+.menu-box {
+    width: 100%;
+    height: 850px;
+    background: #F9F9F9;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.menu-title {
+    text-align: center;
+}
+
+.menu-textBox {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+h3 {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: "Futura Thin";
+    color: #464646;
+    letter-spacing: 0.2em; 
+    border-bottom: solid 1px #464646;
+}
+
+.left-text,.right-text {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.price-text {
+    letter-spacing: .2em;
+}
+
+#menu-careful {
+    text-align: center;
+    letter-spacing: .2em;
+    margin-bottom: 80px;
+}
+
+.coupon-box {
+    width: 85%;
+    height: 200px;
+    border: solid 1px #464646;
+    margin: 0 auto;
+    position: relative;
+}
+
+.coupon-btntitle {
+    width: 70%;
+    background: #F9F9F9;
+    display: inline-block;
+    text-align: center;
+    line-height: 5px;
+    padding: 0 60px;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: -30px;
+}
+
+h4 {
+    font-family: "Futura Thin";
+    color: #464646;
+    letter-spacing: 0.2em;    
+}
+
+.coupon-btntitle p {
+    letter-spacing: 0.2em;  
+}
+
+.coupon-btnBox {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.coupon-btns {
+    margin: 0 auto;
+}
+
+.coupon-btn {
+    margin-top: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Futura Thin";
+    color: #464646;
+    letter-spacing: 0.2em;
+    width: 270px;
+    line-height: 60px;
+    text-align: center;
+    height: 60px;
+    background: white;
+    transition: .5s;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.coupon-btn:hover {
+    background: #FFF9B1;
+    transition: .5s;    
+}
+
+/*staff*/
+
+.staff {
+    width: 100%;
+    height: 20vh;
+    margin-top: 150px;
+    position: relative;
+}
+
+.staff-item-Box {
+    display: block;
+    height: 100%;
+}
+
+.staff-textBox {
+    margin-left: 80px;
+    display: inline-block;
+    width: 40%;
+}
+
+.staff-cardBox {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.card-fadeInBox2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.li-box {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 7.5vw;
+}
+
+.staff-card {
+    width: 15vw;
+    height: 100%;
+    margin-left: 15px;
+    display: none;
+}
+
+.staffImg {
+    width: 15vw;
+    height: 100%;
+}
+
+.Scard1-img {
+    width: 100%;
+    height: 15vh;
+    background-image: url("image/staff１.png");
+    background-size: cover;
+}
+
+.Scard2-img {
+    width: 100%;
+    height: 15vh;
+    background-image: url("image/staff２.png");
+    background-size: cover;
+}
+
+.Scard3-img {
+    width: 100%;
+    height: 15vh;
+    background-image: url("image/staff３.png");
+    background-size: cover;
+}
+
+.Scard4-img {
+    width: 100%;
+    height: 15vh;
+    background-image: url("image/staff４.png");
+    background-size: cover;
+}
+
+.Scard5-img {
+    width: 100%;
+   height: 15vh;
+    background-image: url("image/staff５.png");
+    background-size: cover;
+}
+
+/*reserve*/
+
+.reserve {
+    width: 100%;
+    height: 500px;
+    padding-top: 0px;
+}
+
+.reserve-box {
+    width: 100%;
+    height: 300px;
+    background: #E6EFF1;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 50px;
+    position: relative;
+}
+
+h5 {
+    font-family: "Futura";
+    color: #464646;
+    text-align: center;
+    letter-spacing: .2em;
+    margin-top: 40px;
+}
+
+.reserve-box p {
+    margin-top: -20px;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+#m-logo {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: -50px;
+}
+
+.site-map {
+    height: 100px;
+    background: #F9F9F9;
+    color: #464646;
+    padding-left: 80px;
+    padding-right: 80px;
+    letter-spacing: .2em;
+}
+
+.site-map-right {
+    float: right;
+}
+
+.site-mapLink1,.site-mapLink2 {
+    text-decoration: none;
+    color: #464646;
+    display: inline-block;
+    letter-spacing: .3em;
+}
+
+.site-mapLink1:hover {
+    opacity: .5;
+}
+
+.site-mapLink2:hover {
+    opacity: .5;
+}
+
+.site-map-left {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+
+.footer-lavel {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-lavel p {
+    letter-spacing: .2em;
+}
+
+.lavel1 {
+    background: #C1D3DB;
+    color: white;
+    text-align: center;
+}
+
+.white-lavels {
+    display: flex;
+    width: 100%;
+}
+
+.lavel2 {
+    background: #B1C9D2;
+    color: white;
+    border-left: solid 1px white;
+    text-decoration: none;
+}
+
+.lavel2:hover {
+    opacity: .7;
+    transition: .3s;
+}
+
+.lavel3 {
+    background: #B1C9D2;
+    color: white;
+    border-left: solid 1px white;
+    text-decoration: none;
+}
+
+.lavel3:hover {
+    opacity: .7;
+    transition: .3s;
+}
