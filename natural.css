@@ -234,7 +234,7 @@ li {
 }
 
 .src1 {
-    background-image: url("image/src1.jpg");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/src1.jpg?raw=true");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -242,7 +242,7 @@ li {
 }
 
 .src2 {
-    background-image: url("image/matthew-tkocz-q697-Akhwkc-unsplash.jpg");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/src2.jpg?raw=true");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -251,7 +251,7 @@ li {
 }
 
 .src3 {
-    background-image: url("image/braedon-mcleod-zjq0I3XupiI-unsplash.jpg");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/src3.jpg?raw=true");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -260,7 +260,7 @@ li {
 }
 
 .src4 {
-    background-image: url("image/src1.jpg");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/src1.jpg?raw=true");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -291,7 +291,7 @@ li {
     margin-left: 5vw;
     width: 25%;
     height: 100%;
-    background-image: url("image/concept.jpg");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/concept.jpg?raw=true");
     background-size: cover;
     z-index: 1;
    
@@ -605,35 +605,35 @@ h4 {
 .Scard1-img {
     width: 100%;
     height: 15vh;
-    background-image: url("image/staff１.png");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/staff%EF%BC%91.png?raw=true");
     background-size: cover;
 }
 
 .Scard2-img {
     width: 100%;
     height: 15vh;
-    background-image: url("image/staff２.png");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/staff%EF%BC%92.png?raw=true");
     background-size: cover;
 }
 
 .Scard3-img {
     width: 100%;
     height: 15vh;
-    background-image: url("image/staff３.png");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/staff%EF%BC%93.png?raw=true");
     background-size: cover;
 }
 
 .Scard4-img {
     width: 100%;
     height: 15vh;
-    background-image: url("image/staff４.png");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/staff%EF%BC%94.png?raw=true");
     background-size: cover;
 }
 
 .Scard5-img {
     width: 100%;
    height: 15vh;
-    background-image: url("image/staff５.png");
+    background-image: url("https://github.com/TAKAGI-Misaki/wash-lush/blob/master/image/staff%EF%BC%95.png?raw=true");
     background-size: cover;
 }
 
